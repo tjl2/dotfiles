@@ -1,0 +1,7 @@
+# THIS FILE IS CONTROLLED BY CHEZMOI - USE `chezmoi edit`
+alias vim='nvim'
+alias cat='bat'
+alias ll='ls -l'
+alias k='kubectl'
+complete -F __start_kubectl k
+alias dcew='docker-compose exec web bash'
