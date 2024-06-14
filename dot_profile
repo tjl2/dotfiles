@@ -28,10 +28,5 @@ export SSH_AUTH_SOCK=~/.1password/agent.sock
 eval "$(fzf --bash)"
 
 source <(starship init bash)
-. "$HOME/.cargo/env"
-
-source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
-source /opt/homebrew/opt/chruby/share/chruby/auto.sh
-chruby 3.2.2
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
