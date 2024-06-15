@@ -1,4 +1,0 @@
-Colemak HJKL as Alt-NEIO
-
-Note that this relies on Alacritty's `option_as_alt = "OnlyLeft"` being
-set.
