@@ -14,13 +14,16 @@ Dotfiles managed by `stow`.
   stow .
   ```
 
-Note that you need to `mv`/`rm` any existing files if they already exist, as `stow` wants to replace them with symlinks.
+Note that you need to `mv`/`rm` any existing files if they already exist, as
+`stow` wants to replace them with symlinks.
 
 ## Adding new files
 
-Just move the config file from `$HOME` into the `dotfiles` dircectory, then re-run `stow .` to recreate is as a symlink.
+Just move the config file from `$HOME` into the `dotfiles` dircectory, then
+re-run `stow .` to recreate is as a symlink.
 
-Note that you need to mimic the file & direcotry structure in `dotfiles` that exists in `$HOME`, e.g.:
+Note that you need to mimic the file & direcotry structure in `dotfiles` that
+exists in `$HOME`, e.g.:
 
 * `~/.profile` becomes `~/dotfiles/.profile`
 * `~/.config/nvim/` becomes `~/dotfiles/.config/nvim/`
