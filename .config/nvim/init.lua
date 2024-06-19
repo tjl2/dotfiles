@@ -147,7 +147,8 @@ vim.opt.splitbelow = true
 --  and `:help 'listchars'`
 vim.opt.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
-
+-- Remove whitespace on save
+vim.cmd [[au BufWritePre * :%s/\s\+$//e]]
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
 
