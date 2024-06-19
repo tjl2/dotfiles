@@ -13,6 +13,7 @@ gitmergemain() {
     git merge origin/$branch
 }
 
+alias gs='git status'
 alias vim='nvim'
 alias cat='bat'
 alias ll='ls -l'
