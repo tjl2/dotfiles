@@ -16,7 +16,7 @@ gitmergemain() {
 alias gs='git status'
 alias vim='nvim'
 alias cat='bat'
-alias ll='ls -l'
+alias ll='ls -l --color'
 alias k='kubectl'
 complete -F __start_kubectl k
 alias dcew='docker-compose exec web bash'
