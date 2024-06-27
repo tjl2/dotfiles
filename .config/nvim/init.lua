@@ -604,6 +604,7 @@ require('lazy').setup({
         },
         elixirls = {},
         yamlls = {},
+        biome = {},
       }
 
       -- Ensure the servers and tools above are installed
@@ -667,6 +668,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         yaml = { 'prettier' },
+        javascript = { 'biome' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
