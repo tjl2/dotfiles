@@ -36,3 +36,6 @@ eval "$(fzf --bash)"
 source <(starship init bash)
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
