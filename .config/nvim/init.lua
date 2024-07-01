@@ -191,6 +191,9 @@ vim.keymap.set({ 'n', 'o', 'x' }, '<M-e>', 'j', { desc = "Colemak version of 'j'
 vim.keymap.set({ 'n', 'o', 'x' }, '<M-i>', 'k', { desc = "Colemak version of 'k'", noremap = true, silent = true })
 vim.keymap.set({ 'n', 'o', 'x' }, '<M-o>', 'l', { desc = "Colemak version of 'l'", noremap = true, silent = true })
 
+-- Allow ; to be used for entering command mode
+vim.keymap.set({ 'n' }, ';', ':', { desc = 'Command mode', noremap = true })
+
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
