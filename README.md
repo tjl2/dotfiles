@@ -27,3 +27,8 @@ exists in `$HOME`, e.g.:
 
 * `~/.profile` becomes `~/dotfiles/.profile`
 * `~/.config/nvim/` becomes `~/dotfiles/.config/nvim/`
+
+## Installing brew package
+
+You can install all the packages in `brew-packages.txt` (generated using `brew
+leaves`) by using `xargs brew install < brew-packages.txt`
