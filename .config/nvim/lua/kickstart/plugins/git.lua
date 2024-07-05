@@ -1,8 +1,7 @@
--- Adds git related signs to the gutter, as well as utilities for managing changes
--- NOTE: gitsigns is already included in init.lua but contains only the base
--- config. This will add also the recommended keymaps.
-
 return {
+  -- Adds git related signs to the gutter, as well as utilities for managing changes
+  -- NOTE: gitsigns is already included in init.lua but contains only the base
+  -- config. This will add also the recommended keymaps.
   {
     'lewis6991/gitsigns.nvim',
     opts = {
@@ -56,6 +55,23 @@ return {
         map('n', '<leader>tb', gitsigns.toggle_current_line_blame, { desc = '[T]oggle git show [b]lame line' })
         map('n', '<leader>tD', gitsigns.toggle_deleted, { desc = '[T]oggle git show [D]eleted' })
       end,
+    },
+  },
+  -- LazyGit
+  {
+    'kdheepak/lazygit.nvim',
+    cmd = {
+      'LazyGit',
+      'LazyGitConfig',
+      'LazyGitCurrentFile',
+      'LazyGitFilter',
+      'LazyGitFilterCurrentFile',
+    },
+    dependencies = {
+      'nvim-lua/plenary.nvim',
+    },
+    keys = {
+      { '<leader>gl', '<cmd>LazyGit<cr>', desc = '[L]azyGit' },
     },
   },
 }
