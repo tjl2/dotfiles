@@ -191,6 +191,12 @@ vim.keymap.set({ 'n', 'o', 'x' }, '<M-e>', 'j', { desc = "Colemak version of 'j'
 vim.keymap.set({ 'n', 'o', 'x' }, '<M-i>', 'k', { desc = "Colemak version of 'k'", noremap = true, silent = true })
 vim.keymap.set({ 'n', 'o', 'x' }, '<M-o>', 'l', { desc = "Colemak version of 'l'", noremap = true, silent = true })
 
+-- Keybinds to move through wrapped lines like other editors
+vim.keymap.set('n', '<down>', 'gj', { noremap = true })
+vim.keymap.set('i', '<down>', '<C-o>gj', { noremap = true, silent = true })
+vim.keymap.set('n', '<up>', 'gk')
+vim.keymap.set('i', '<up>', '<C-o>gk', { noremap = true, silent = true })
+
 -- Allow ; to be used for entering command mode
 vim.keymap.set({ 'n' }, ';', ':', { desc = 'Command mode', noremap = true })
 
