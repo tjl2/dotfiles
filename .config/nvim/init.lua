@@ -615,6 +615,8 @@ require('lazy').setup({
         elixirls = {},
         yamlls = {},
         biome = {},
+        ruby_lsp = {},
+        rubocop = {},
       }
 
       -- Ensure the servers and tools above are installed
