@@ -72,6 +72,7 @@ return {
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
         pyright = {},
+        elixirls = {},
       },
     },
   },
@@ -121,6 +122,9 @@ return {
     opts = {
       ensure_installed = {
         "bash",
+        "diff",
+        "elixir",
+        "erlang",
         "html",
         "javascript",
         "json",
