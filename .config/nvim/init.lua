@@ -681,6 +681,7 @@ require('lazy').setup({
         lua = { 'stylua' },
         yaml = { 'prettier' },
         javascript = { 'biome' },
+        graphql = { 'prettier' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
