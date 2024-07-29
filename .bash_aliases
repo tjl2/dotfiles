@@ -20,3 +20,4 @@ alias ll='ls -l --color'
 alias k='kubectl'
 complete -F __start_kubectl k
 alias dcew='docker-compose exec web bash'
+alias kimelixir-start='docker compose -f ~/dicefm/kimlexir/.devcontainer/docker-compose.yml up --scale app=0 -d'
