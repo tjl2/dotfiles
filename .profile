@@ -3,6 +3,7 @@ export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export BAT_THEME=Dracula
 export EDITOR=nvim
 export NVIM_APPNAME=lazyvim
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 if type brew &>/dev/null
 then
