@@ -2,6 +2,7 @@
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export BAT_THEME=Dracula
 export EDITOR=nvim
+export NVIM_APPNAME=lazyvim
 
 if type brew &>/dev/null
 then
