@@ -9,5 +9,7 @@ config.color_scheme = "Dracula (Official)"
 config.window_decorations = "RESIZE"
 -- config.window_background_opacity = 0.95
 config.macos_window_background_blur = 10
+config.initial_rows = 60
+config.initial_cols = 160
 
 return config
