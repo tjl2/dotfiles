@@ -22,7 +22,7 @@ httpie
 jq
 k6
 k9s
-kafka
+kitty
 kubectx
 lazydocker
 lazygit
