@@ -1,5 +1,5 @@
 .config/nvim/lazy-lock.json
 .config/lazyvim/lazy-lock.json
 .config/lazyvim/lazyvim.json
-.config/k9s/clusters/arn-aws-eks-eu-west-1-521772772230-cluster-stg001/stg001
+.config/k9s/clusters/
 .config/k9s/aliases.yaml
