@@ -4,6 +4,7 @@ export BAT_THEME=Dracula
 export EDITOR=nvim
 export NVIM_APPNAME=lazyvim
 export ERL_AFLAGS="-kernel shell_history enabled"
+export K9S_CONFIG_DIR=~/.config/k9s
 
 if type brew &>/dev/null; then
   HOMEBREW_PREFIX="$(brew --prefix)"
