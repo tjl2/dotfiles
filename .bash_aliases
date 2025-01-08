@@ -24,15 +24,15 @@ alias dcew='docker-compose exec web bash'
 alias kimelixir-start='docker compose -f ~/dicefm/kimlexir/.devcontainer/docker-compose.yml up -d'
 
 # kimlexir-specific aliases
-cd() {
-  builtin cd "$@" || return
-
-  if [[ "$PWD" == "/Users/timlittlemore/dicefm/kimlexir" ]]; then
-    echo "Setting Docker aliases for mix & make"
-    alias mix="docker compose -f .devcontainer/docker-compose.yml exec -it app mix"
-    alias make="docker compose -f .devcontainer/docker-compose.yml exec -it app make"
-  else
-    unalias mix &>/dev/null
-    unalias make &>/dev/null
-  fi
-}
+# cd() {
+#   builtin cd "$@" || return
+#
+#   if [[ "$PWD" == "/Users/timlittlemore/dicefm/kimlexir" ]]; then
+#     echo "Setting Docker aliases for mix & make"
+#     alias mix="docker compose -f .devcontainer/docker-compose.yml exec -it app mix"
+#     alias make="docker compose -f .devcontainer/docker-compose.yml exec -it app make"
+#   else
+#     unalias mix &>/dev/null
+#     unalias make &>/dev/null
+#   fi
+# }
