@@ -1,7 +1,7 @@
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export BAT_THEME=Dracula
 export EDITOR=nvim
-export NVIM_APPNAME=lazyvim
+# export NVIM_APPNAME=lazyvim
 export ERL_AFLAGS="-kernel shell_history enabled"
 export K9S_CONFIG_DIR=~/.config/k9s
 
