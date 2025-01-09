@@ -1,4 +1,3 @@
-# THIS FILE IS CONTROLLED BY CHEZMOI - USE `chezmoi edit`
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export BAT_THEME=Dracula
 export EDITOR=nvim
