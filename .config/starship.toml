@@ -3,3 +3,14 @@ command_timeout = 2000
 disabled = true
 [kubernetes]
 disabled = false
+
+[elixir]
+disabled = true
+
+[custom.elixir]
+format = '[$symbol(v$output )]($style)'
+command = "elixir --short-version 2>/dev/null || (elixir --version | grep '^Elixir' | awk '{print $2}')"
+when = "test -f mix.exs"
+style = 'bold purple'
+symbol = '💧 '
+
