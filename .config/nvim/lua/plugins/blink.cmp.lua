@@ -4,6 +4,9 @@ return {
     opts.completion.ghost_text = {
       enabled = false,
     }
+    opts.keymap = {
+      preset = "default",
+    }
     return opts
   end,
 }
